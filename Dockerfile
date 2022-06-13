@@ -1,4 +1,4 @@
 FROM openjdk:11
-EXPOSE 8000
-ADD target/springboot-jenkins-docker-integration.jar springboot-jenkins-docker-integration.jar
-ENTRYPOINT ["java","-jar","/springboot-jenkins-docker-integration.jar"]
+EXPOSE 8080
+ADD target/springboot-docker-jenkins-integration.jar springboot-docker-jenkins-integration.jar
+ENTRYPOINT ["java","-jar","/springboot-docker-jenkins-integration.jar"]
